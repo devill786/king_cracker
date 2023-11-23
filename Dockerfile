@@ -20,4 +20,4 @@ EXPOSE 8000
 ENV APP_NAME=global
 
 # Start the bot when the container starts
-CMD ["node", "testbot.js"]
+CMD ["npm", "install"]
