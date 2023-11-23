@@ -1,0 +1,22 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "description": "Node.js Telegram bot using Back4App",
+  "main": "testbot.js",  
+  "scripts": {
+    "start": "node testbot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "back4app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.55.0",
+    "node-fetch": "^2.6.1",
+    "querystring": "^0.2.1",
+    "firebase-admin": "^10.0.0"  
+  }
+}
