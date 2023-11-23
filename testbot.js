@@ -22,4 +22,14 @@ bot.on('webhook_error', (error) => {
   console.error(error.code);  // => 'EPARSE'
 });
 
+// Log when the bot is ready
+bot.on('polling_error', (error) => {
+  console.error(error.code);
+});
+
+// Enable promise cancellation manually
+bot._polling.abort = () => {
+  // Implement the abortion logic if needed
+};
+
 console.log('Bot is running...');
